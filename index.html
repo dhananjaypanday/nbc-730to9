@@ -4,28 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS</title>
-    <script>
-        function greet(){
-            var firstName = document.getElementById('firstName').value;
-            var lastName = document.getElementById('lastName').value;
-            var message = 'Welcome'+' '+firstName+' '+lastName;
-            //var message = 'Welcome '+initCap(firstName)+' '+initCap(lastName);
-            document.getElementById('result').innerText = message;
-        }
-        function initCap(name){
-            return name.charAt(0).toUpperCase()+name.substring(1).toLowerCase();
-        }
-    </script>
+    <title>Basic js</title>
+    <script src="basicjs.js"></script>
 </head>
 <body>
-    <h1>Greet App</h1>
-    <label for="">First Name</label>
-    <input id="firstName" type="text"><br><br>
-    <label for="">Last Name</label>
-    <input id="lastName" type="text">
-    <button id="greet" onclick="greet();">Greet</button><br><br>
-    <h1 id="result"></h1>
-
+    
 </body>
 </html>
